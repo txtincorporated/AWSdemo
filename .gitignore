@@ -1,3 +1,5 @@
+#stuff to keep local
+credentials (1).csv
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
