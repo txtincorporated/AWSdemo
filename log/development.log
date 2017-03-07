@@ -4740,3 +4740,17 @@ Processing by ArtsController#index as HTML
   [1m[35mArt Load (26.4ms)[0m  SELECT "arts".* FROM "arts"
   Rendered arts/index.html.erb within layouts/application (29.5ms)
 Completed 200 OK in 292ms (Views: 265.1ms | ActiveRecord: 26.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 23:37:41 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArtsController#index as HTML
+  [1m[35mArt Load (23.6ms)[0m  SELECT "arts".* FROM "arts"
+  Rendered arts/index.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 1396ms (Views: 1331.4ms | ActiveRecord: 24.4ms)
+
+
+Started GET "/assets/application-704f63308c36a2ef236c72c95327726c7da4d6f2a3baa8467196c19b79c34823.css" for ::1 at 2017-03-06 23:37:43 -0800
+
+
+Started GET "/assets/application-e855a5efbf69716421daa9d945368d7ac5831090d3da2ae693c9f6488f031e65.js" for ::1 at 2017-03-06 23:37:43 -0800
